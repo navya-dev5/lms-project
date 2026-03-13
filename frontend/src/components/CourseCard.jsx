@@ -1,4 +1,4 @@
-import { Play, Clock, Users, Star } from 'lucide-react';
+import { Play, Clock, Users } from 'lucide-react';
 
 export default function CourseCard({ course }) {
   return (
@@ -35,21 +35,9 @@ export default function CourseCard({ course }) {
           <span>{course?.duration || '10h 30m'}</span>
         </div>
 
-        <div className="flex items-center justify-between mb-4">
-          <div className="flex items-center gap-1">
-            <div className="flex text-yellow-400">
-              <Star className="w-4 h-4 fill-current" />
-              <Star className="w-4 h-4 fill-current" />
-              <Star className="w-4 h-4 fill-current" />
-              <Star className="w-4 h-4 fill-current" />
-              <Star className="w-4 h-4" />
-            </div>
-            <span className="text-sm text-gray-500">(4.8)</span>
-          </div>
-          <div className="text-sm font-medium text-gray-500">
-            <Users className="w-4 h-4 inline mr-1" />
-            {course?.enrolled || 0}
-          </div>
+        <div className="flex items-center justify-end mb-4 text-sm font-medium text-gray-500">
+          <Users className="w-4 h-4 inline mr-1" />
+          {course?.enrolled || 0}
         </div>
 
         <div className="flex items-center justify-between">

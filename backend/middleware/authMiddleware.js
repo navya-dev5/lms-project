@@ -9,7 +9,8 @@ function requireAuth(req, res, next) {
   }
 
   try {
-    const secret = process.env.JWT_SECRET || "change-me-in-env";
+    const secret = process.env.JWT_SECRET;
+    if (!secret) return res.status(500).json({ message: "JWT_SECRET is not set" });
     const payload = jwt.verify(token, secret);
     req.userId = payload.id;
     return next();
