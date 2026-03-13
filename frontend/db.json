@@ -173,7 +173,7 @@
   ],
   "enrollments": [
     {
-      "id": "e1",
+      "id": "e1      ",
       "userId": 3,
       "courseId": 1,
       "enrolledAt": "2024-01-15T10:30:00Z",
