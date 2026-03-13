@@ -1,0 +1,190 @@
+﻿{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Java Programming: Core + OOP",
+      "instructor": "Aditi Sharma",
+      "description": "Build a strong Java foundation: syntax, OOP, collections, and problem-solving with real exercises.",
+      "category": "Java",
+      "level": "Beginner",
+      "image": "/course-images/java.svg",
+      "duration": "16h 20m",
+      "price": 79,
+      "enrolled": 1840,
+      "lessons": 38,
+      "rating": 4.8
+    },
+    {
+      "id": 2,
+      "title": "Python for Beginners: From Zero to Confident",
+      "instructor": "Neha Verma",
+      "description": "Learn Python basics, functions, lists, dictionaries, and file handling with mini-projects.",
+      "category": "Python",
+      "level": "Beginner",
+      "image": "/course-images/python.svg",
+      "duration": "14h 10m",
+      "price": 69,
+      "enrolled": 3125,
+      "lessons": 34,
+      "rating": 4.7
+    },
+    {
+      "id": 3,
+      "title": "C Programming: Pointers and Memory",
+      "instructor": "Rahul Iyer",
+      "description": "Master the C fundamentals: variables, arrays, pointers, strings, and memory with hands-on labs.",
+      "category": "C",
+      "level": "Intermediate",
+      "image": "/course-images/c.svg",
+      "duration": "18h 40m",
+      "price": 89,
+      "enrolled": 980,
+      "lessons": 41,
+      "rating": 4.8
+    },
+    {
+      "id": 4,
+      "title": "C++ Programming: OOP + STL Essentials",
+      "instructor": "Kiran Patel",
+      "description": "Learn modern C++ with classes, templates, STL containers, and algorithmic thinking.",
+      "category": "C++",
+      "level": "Intermediate",
+      "image": "/course-images/cpp.svg",
+      "duration": "20h 05m",
+      "price": 99,
+      "enrolled": 845,
+      "lessons": 44,
+      "rating": 4.8
+    },
+    {
+      "id": 5,
+      "title": "JavaScript ES6+: The Modern Guide",
+      "instructor": "Sanjay Kulkarni",
+      "description": "ES6+, async/await, DOM, modules, and patterns used in real-world JavaScript development.",
+      "category": "JavaScript",
+      "level": "Beginner",
+      "image": "/course-images/javascript.svg",
+      "duration": "15h 55m",
+      "price": 59,
+      "enrolled": 4020,
+      "lessons": 36,
+      "rating": 4.6
+    },
+    {
+      "id": 6,
+      "title": "TypeScript Essentials for Frontend Developers",
+      "instructor": "Meera Nair",
+      "description": "Types, interfaces, generics, and practical patterns to ship safer JavaScript codebases.",
+      "category": "TypeScript",
+      "level": "Intermediate",
+      "image": "/course-images/typescript.svg",
+      "duration": "11h 30m",
+      "price": 69,
+      "enrolled": 1560,
+      "lessons": 24,
+      "rating": 4.7
+    },
+    {
+      "id": 7,
+      "title": "React Essentials: Components, State, and Hooks",
+      "instructor": "Navya",
+      "description": "Build fast UIs with React: components, props, state, hooks, and routing basics.",
+      "category": "React",
+      "level": "Beginner",
+      "image": "/course-images/react.svg",
+      "duration": "13h 05m",
+      "price": 0,
+      "enrolled": 5120,
+      "lessons": 30,
+      "rating": 4.8
+    },
+    {
+      "id": 8,
+      "title": "Node.js + Express: REST APIs from Scratch",
+      "instructor": "Arjun Singh",
+      "description": "Design REST APIs, handle auth, validate inputs, and structure Node.js backends with Express.",
+      "category": "Node.js",
+      "level": "Intermediate",
+      "image": "/course-images/node.svg",
+      "duration": "17h 50m",
+      "price": 109,
+      "enrolled": 1045,
+      "lessons": 39,
+      "rating": 4.7
+    },
+    {
+      "id": 9,
+      "title": "SQL for Developers: Queries and Joins",
+      "instructor": "Priya Rao",
+      "description": "Write SQL confidently: SELECT, WHERE, GROUP BY, JOINs, and common query patterns.",
+      "category": "SQL",
+      "level": "Beginner",
+      "image": "/course-images/sql.svg",
+      "duration": "9h 15m",
+      "price": 49,
+      "enrolled": 2210,
+      "lessons": 22,
+      "rating": 4.6
+    },
+    {
+      "id": 10,
+      "title": "HTML + CSS: Responsive Websites",
+      "instructor": "Ananya Gupta",
+      "description": "Create clean pages with HTML and modern CSS. Flexbox, Grid, and responsive patterns included.",
+      "category": "HTML/CSS",
+      "level": "Beginner",
+      "image": "/course-images/htmlcss.svg",
+      "duration": "10h 40m",
+      "price": 39,
+      "enrolled": 3890,
+      "lessons": 26,
+      "rating": 4.7
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@lms.com",
+      "password": "admin123",
+      "name": "Super Admin",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "email": "instructor@lms.com",
+      "password": "instructor123",
+      "name": "John Instructor",
+      "role": "instructor"
+    },
+    {
+      "id": 3,
+      "email": "student@lms.com",
+      "password": "student123",
+      "name": "Jane Student",
+      "role": "student"
+    },
+    {
+      "id": 4,
+      "email": "navya@example.com",
+      "password": "password123",
+      "name": "Navya User",
+      "role": "student"
+    }
+  ],
+  "enrollments": [
+    {
+      "id": "e1",
+      "userId": 3,
+      "courseId": 1,
+      "enrolledAt": "2024-01-15T10:30:00Z",
+      "progress": 67
+    },
+    {
+      "id": "e2",
+      "userId": 3,
+      "courseId": 2,
+      "enrolledAt": "2024-02-01T14:20:00Z",
+      "progress": 23
+    }
+  ]
+}
