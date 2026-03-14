@@ -1,0 +1,97 @@
+/* Simple CSS Reset & Base - No colors/effects */
+* { 
+  box-sizing: border-box; 
+}
+body { \n  font-family: -apple-system, BlinkMacSystemFont, sans-serif; \n  margin: 0; \n  padding: 0; \n  background: #000; \n  color: #fff; \n  line-height: 1.6; \n}
+#root { 
+  max-width: 1200px; 
+  margin: 0 auto; 
+}
+.btn { 
+  background: #007bff; 
+  color: white; 
+  border: none; 
+  padding: 0.75rem 1.5rem; 
+  border-radius: 4px; 
+  cursor: pointer; 
+  font-size: 1rem; 
+}
+.btn:hover { 
+  background: #0056b3; 
+}
+.btn-secondary { 
+  background: #6c757d; 
+  color: white; 
+}
+.btn-secondary:hover { 
+  background: #545b62; 
+}
+.input, select, textarea { \n  width: 100%; \n  padding: 0.75rem; \n  border: 1px solid #444; \n  border-radius: 4px; \n  font-size: 1rem; \n  background: #2a2a2a; \n  color: #fff; \n}
+.input:focus { 
+  outline: none; 
+  border-color: #007bff; 
+  box-shadow: 0 0 0 2px rgba(0,123,255,0.2); 
+}
+.card { \n  background: #1a1a1a; \n  border: 1px solid #333; \n  border-radius: 8px; \n  padding: 1.5rem; \n  box-shadow: 0 4px 8px rgba(0,0,0,0.3); \n}
+.nav { 
+  background: #fff; 
+  border-bottom: 1px solid #eee; 
+  padding: 1rem 0; 
+  position: sticky; 
+  top: 0; 
+  z-index: 50; 
+}
+.nav-link { 
+  padding: 0.5rem 1rem; 
+  margin: 0 0.5rem; 
+  font-weight: 500; 
+}
+.container { 
+  max-width: 1200px; 
+  margin: 0 auto; 
+  padding: 0 1rem; 
+}
+.grid { 
+  display: grid; 
+  gap: 1rem; 
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+}
+@media (max-width: 768px) { 
+  .grid { grid-template-columns: 1fr; } 
+}
+.spinner { 
+  display: inline-block; 
+  width: 20px; 
+  height: 20px; 
+  border: 2px solid #f3f3f3; 
+  border-top: 2px solid #007bff; 
+  border-radius: 50%; 
+  animation: spin 1s linear infinite; 
+}
+@keyframes spin { 
+  0% { transform: rotate(0deg); } 
+  100% { transform: rotate(360deg); } 
+}
+.progress { 
+  background: #f0f0f0; 
+  border-radius: 4px; 
+  height: 8px; 
+  overflow: hidden; 
+}
+.progress-bar { 
+  height: 100%; 
+  background: #007bff; 
+  transition: width 0.3s ease; 
+}
+.hero { 
+  text-align: center; 
+  padding: 4rem 1rem; 
+}
+.form-group { 
+  margin-bottom: 1rem; 
+}
+label { 
+  display: block; 
+  margin-bottom: 0.5rem; 
+  font-weight: 500; 
+}

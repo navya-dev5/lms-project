@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # dependencies
 node_modules/
 
@@ -7,10 +8,16 @@ backend/.env
 frontend/.env
 
 # logs
+=======
+# Logs
+logs
+*.log
+>>>>>>> 3e21ad315c4152c098e97c9f245733397e096bc2
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+<<<<<<< HEAD
 *.log
 
 # builds
@@ -28,3 +35,22 @@ Thumbs.db
 .vscode/
 .idea/
 
+=======
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+>>>>>>> 3e21ad315c4152c098e97c9f245733397e096bc2
